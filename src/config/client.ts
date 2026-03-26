@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Roxy Francis", rating: 5, text: "Claire did an amazing job cutting back our trees and hedges. She was quick to respond to my enquiry, the quality of work was fantastic and she left the garden neat and tidy. We would definitely use Claire’s services again. ", date: "11 months ago" },
+    { name: "Living Room YouTube", rating: 5, text: "Very professional and do exactly what they say. Great job very happy satisfied customer. Will recommend this company and will 💯 having them back to work on my back garden 😃 …   Response from the owner 10 months agoEnjoyable project and a satisfyi", date: "10 months ago" },
+    { name: "Penny Shirley", rating: 5, text: "Claire was the first person I contacted about helping tidy up my, very overgrown, allotment. She replied quickly and was very knowledgeable about what my space needed. She has done a great job with my space and I would definitely recommend her. ", date: "9 months ago" },
+    { name: "Lee Macey", rating: 5, text: "We got in touch with Claire as we are both novice gardeners and wanted some help and guidance on bringing life to the garden at our new house. She has done a fantastic job expanding the bedding, preparing the soil and finding plants …  ", date: "2 years ago" },
+    { name: "Chris Tolley", rating: 5, text: "Claire has worked closely with us over the past two years to develop our gardens. She listened carefully to what we were looking for, made good suggestions for how to achieve the effect, took time to understand light, soil and the effort we …  ", date: "3 years ago" },
+    { name: "Liz Davidson", rating: 5, text: "Stuart and Claire did a fantastic job on my elderly Mum's garden, which was quite overgrown. The trees and shrubs were cut to the right size and shape, everything was discussed in advance and they arrived on schedule  and completed the work …  ", date: "7 years ago" },
+    { name: "Julia Ward", rating: 5, text: "I wanted my garden revamped. Claire arrived, listened to what I wanted, asked for a list of plants I liked, or disliked and returned later with a plan. She offered other suggestions I hadn’t considered but what I particularly appreciated …  ", date: "7 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
